@@ -20,12 +20,7 @@ Verwendete Technologien:
 
 Ergebnis: 
 
-Note: Projekt fertig stellen
-
-
-
 https://user-images.githubusercontent.com/98667941/182268781-f4d828b8-d8d5-4d55-9686-868bd526fa30.mov
-
 
 
 ![Lev3_3_Project_css-einführung_Illustration](https://user-images.githubusercontent.com/98667941/182268570-1cc883a5-34dd-4238-99cf-4d6540c2245e.png)
