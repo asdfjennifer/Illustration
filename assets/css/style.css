@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*=== GENERAL STYLES ===
+            Fonts
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+
+            Farben
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+
+=======================*/
+body {
+    font-family: 'Merriweather', serif;
+    margin: 10em;
+    color: #202020;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 1em 0em;
+    width: 30vw;
+}
+
+h4 {
+    font-size: 3em;
+    padding: 1em 0em;
+    width: 50vw;
+    margin-left: -3em;
+}
+
+p {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    /* width: 30vw; */
+}
+
+section {
+    padding: 10em 0em;
+}
+
+/*============================
+            HEADER
+============================*/
+/* IMAGE */
+
+header section {
+    width: 30vw;
+}
+
+
+header div {
+    position: absolute;
+    right: -25vw;
+    top: 10vh;
+}
+
+div img {
+    /* height: 50%; */
+    width: 50%;
+}
+
+nav a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #202020;
+}
+
+nav a:hover { 
+    color: gray;
+}
+
+nav ul {
+    list-style: none;
+    position: absolute;
+    right: 2em;
+    top: 2em;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+/* DOWNLOAD BUTTON */
+.absurdIllustrations a:nth-of-type(1) {
+    border: 1px solid #000;
+    border-radius: 0.5em;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    box-shadow: 2px 2px gray;
+}
+
+.absurdIllustrations a:nth-of-type(1):hover {
+    background: #fff;
+    color: #000;
+}
+
+/* SUBSCRIBE BUTTON */
+a:nth-of-type(2) {
+    border: 1px solid lightgray;
+    border-radius: 0.5em;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+    box-shadow: 2px 2px gray;
+}
+
+a:nth-of-type(2):hover {
+    background: #000;
+    color: #fff;
+}
+
+/*============================
+            MAIN
+============================*/
+
+main section:nth-of-type(1) {
+    position: relative;
+    margin: 0em 50em;
+    width: 30vw;
+}
+
+/* IMAGE 
+real beauty*/
+main section:nth-of-type(1) img {
+    position: absolute;
+    right: 50vw;
+    top: 10vh;
+    height: 50vh;
+    width: auto;
+}
+
+/*expressiveness*/
+main section:nth-of-type(2) {
+    width: 30vw;
+}
+
+main section:nth-of-type(2) img {
+    position: absolute;
+    right: 10vw;
+    top: 180vh;
+    width: 30%;
+}
+
+/*illustrations for applications*/
+main section:nth-of-type(3),
+main section:nth-of-type(4),
+main section:nth-of-type(5),
+footer section {
+    text-align: center;
+    padding: 10vh 25vw;
+}
+
+main section:nth-of-type(3) p {
+    width: 200%;
+    margin-left: -15vw;
+}
+
+main section:nth-of-type(4) p {
+    width: 160%;
+    margin-left: -7.5vw;
+}
+
+main section:nth-of-type(5) p {
+    width: 160%;
+    margin-left: -7.5vw;
+}
+
+/*IMAGES SECTION 3*/
+
+main section:nth-of-type(3) div {
+    width: 300%;
+    margin: 0 -30em;
+}
+main section:nth-of-type(3) img {
+    display: inline-block;
+    height: 30vh;
+    width: 20%;
+}
+
+/*IMAGES SECTION 4 - 6 Stück*/
+main section:nth-of-type(4) div {
+    width: 300%;
+    margin: 0 -30em;
+}
+main section:nth-of-type(4) img {
+    display: inline-block;
+    height: 30vh;
+    width: 30%;
+}
+
+/* download illustrations, box */
+
+/* membership */
+
+h3 {
+    font-size: 4.5em;
+    margin: 1em 0;
+}
+
+main section:nth-of-type(5) div {
+    border: 1px solid #FCFCFC;
+    border-radius: 5px;
+    background: #F5FBFE;
+    width: 20vw;
+    padding: 8vh;
+    margin-left: 7.5em;
+}
+
+main section:nth-of-type(5) div p {
+    margin-left: -3.5em;
+    font-size: 1em;
+    color: grey;
+}
+
+main section:nth-of-type(5) div ul {
+    list-style: none;
+    line-height: 1.5em;
+}
+
+main section:nth-of-type(5) div a {
+    background: #24bff2;
+    color: #fff;
+    text-decoration: none;
+    padding: 1vw 3vh;
+    border-radius: 5px;
+}
+
+main section:nth-of-type(5) div a:hover {
+    background: #fff;
+    color: #24bff2;
+    border: 1px solid #000;
+}
+
+/* main section:nth-of-type(5) div > div {
+    margin-top: 1em;
+} */
+
+/*============================
+            FOOTER
+============================*/
+
+footer p {
+    color: #C4C4C4;
+    font-size: 1em;
+    padding: 1em 0;
+}
+
+footer a { 
+    color: #000;
+    text-decoration: none;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li::before {
+    content: ".";
+    font-size: 2em;
+}
+
+/* lila gelb türkis rot */
+footer ul li:first-child {
+    color: #3b5998;
+}
+
+footer ul li:nth-of-type(2) {
+    color: #fcaf45;
+}
+
+footer ul li:nth-of-type(3) {
+    color: #55acee;
+}
+
+footer ul li:nth-of-type(4) {
+    color: #c4302b;
+}
